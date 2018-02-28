@@ -1,10 +1,10 @@
 html {
   box-sizing: border-box;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Playfair Display', serif;
 }
 
 body {
-  margin: 20px;
+  margin: 10px;
   line-height: 1.4;
 }
 
@@ -18,14 +18,18 @@ a {
 
 .wrapper {
   display: grid;
-  grid-gap: 20px;
+  grid-gap: 10px;
   max-width: 1280px;
   margin: 0 auto;
 }
 
+.wrapper h1 {
+  text-transform: uppercase;
+  font-size: 2rem;
+  margin: 0;
+}
 .pagination {
   display: flex;
-
 }
 
 .pagination > div {
@@ -44,7 +48,7 @@ a {
   grid-template-columns: repeat(4, 1fr);
   max-width: 1280px;
 }
-.item7 {
+.item8 {
   grid-column:1 / 5;
 }
 
@@ -52,7 +56,7 @@ a {
   width: 100%;
 }
 
-.visible {
+.visible, .visible2 {
   display: none;
 }
 
@@ -63,12 +67,23 @@ a {
   .visible {
     display: block;
   }
-  .item7 {
+  .item8 {
     display: none;
   }
   .item4 {
     grid-column: 4 / 6;
     grid-row: 1 / 5;
+  }
+  .item9 {
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+  }
+  .item15 {
+    grid-column: 2 / 3;
+    grid-row: 5 / 6;
+  }
+  .item30 {
+    display: none;
   }
 }
 
@@ -83,7 +98,7 @@ a {
     grid-column: 4 / 5;
     grid-row: 1 / 3;
   }
-  .item19 {
+  .item20 {
     grid-column: 4 / 5;
     grid-row: 5 / 7;
   }
