@@ -15,6 +15,9 @@ a {
   text-decoration: none;
   color: #000;
 }
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+}
 
 .wrapper {
   display: grid;
@@ -53,10 +56,24 @@ a {
   display: flex;
   align-items: center;
 }
+.teaser-img {
+  flex: 1;
+}
 .teaser {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  flex: 2;
+  align-items: center;
+  font-size: 14px;
+  text-align: center;
+}
+.teaser-p {
+  font-size: 10px;
+}
+.teaser h5 {
+  font-size: 14px;
+  font-weight: bold;
 }
 
 .portfolio img {
