@@ -50,6 +50,13 @@ a {
 }
 .item8 {
   grid-column:1 / 5;
+  display: flex;
+  align-items: center;
+}
+.teaser {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .portfolio img {
