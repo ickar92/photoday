@@ -33,12 +33,12 @@ h1, h2, h3, h4, h5, h6, p {
   position: relative;
 }
 
-.wrapper h2 span {
+.wrapper h1 span {
     background-color: white;
     padding-right: 10px;
 }
 
-h1:after {
+.wrapper h1:after {
     content:"";
     position: absolute;
     bottom: -6px;
