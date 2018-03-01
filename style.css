@@ -30,24 +30,9 @@ h1, h2, h3, h4, h5, h6, p {
   text-transform: uppercase;
   font-size: 2rem;
   margin: 0;
-  position: relative;
 }
 
-.wrapper h1 span {
-    background-color: white;
-    padding-right: 10px;
-}
 
-.wrapper h1:after {
-    content:"";
-    position: absolute;
-    bottom: -6px;
-    left: 0;
-    right: 0;
-    height: 0.5em;
-    border-top: 3px solid black;
-    z-index: -1;
-}
 .pagination {
   display: flex;
 }
