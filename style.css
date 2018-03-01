@@ -28,17 +28,17 @@ h1, h2, h3, h4, h5, h6, p {
 
 .wrapper h1 {
   text-transform: uppercase;
-  font-size: 2rem;
+  font-size: 1.5rem;
   margin: 0;
 }
 .wrapper h1:after {
-  background-color: #333;
+background-color: #333;
 content: "";
 display: inline-block;
 height: 1px;
 position: relative;
 vertical-align: bottom;
-width: 50%;
+width: 44%;
 }
 .header-image {
 
@@ -122,6 +122,10 @@ left: 20px;
   .visible {
     display: block;
   }
+  .wrapper h1:after {
+    
+    width: 64%;
+    }
   .pagination > div {
     margin: 0;
   }
@@ -164,6 +168,15 @@ left: 20px;
   .portfolio {
     grid-template-columns: repeat(4, 1fr);
   }
+  .wrapper h1:after {
+    background-color: #333;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: bottom;
+    width: 78%;
+    }
   .visible2 {
     display: block;
   }
