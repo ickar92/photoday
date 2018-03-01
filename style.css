@@ -21,9 +21,11 @@ h1, h2, h3, h4, h5, h6, p {
 
 .wrapper {
   display: grid;
-  grid-gap: 10px;
+  grid-gap: 5px;
   max-width: 1280px;
   margin: 0 auto;
+  min-width: 320px;;
+  
 }
 
 .wrapper h1 {
@@ -47,7 +49,7 @@ h1, h2, h3, h4, h5, h6, p {
 
 .portfolio {
   display: grid;
-  grid-gap: 10px;
+  grid-gap: 5px;
   grid-template-columns: repeat(4, 1fr);
   max-width: 1280px;
 }
@@ -55,6 +57,7 @@ h1, h2, h3, h4, h5, h6, p {
   grid-column:1 / 5;
   display: flex;
   align-items: center;
+  grid-gap: 0;
 }
 .teaser-img {
   flex: 1;
