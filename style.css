@@ -36,7 +36,8 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .pagination > div {
-  margin-right: 30px;
+
+  padding: 5px 10px;
 }
 .pagination > div:hover {
   border-radius: 50%;
