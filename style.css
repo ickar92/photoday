@@ -24,8 +24,6 @@ h1, h2, h3, h4, h5, h6, p {
   grid-gap: 5px;
   max-width: 1280px;
   margin: 0 auto;
-  min-width: 320px;;
-  
 }
 
 .wrapper h1 {
